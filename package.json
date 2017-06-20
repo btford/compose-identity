@@ -1,0 +1,22 @@
+{
+  "name": "compose-identity",
+  "version": "0.0.1",
+  "description": "functional composition that maintains identity",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "keywords": [
+    "fp",
+    "functional",
+    "compose"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-flow": "^6.23.0"
+  }
+}
